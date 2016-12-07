@@ -10,7 +10,11 @@
 '.platform-darwin atom-workspace':
   'cmd-k cmd-c': 'change-case:camel'
   'cmd-k cmd-s': 'change-case:snake'
+  'cmd-k cmd-u': 'change-case:constant'
+  'cmd-k cmd-l': 'change-case:lower'
 
 '.platform-win32 atom-workspace':
   'ctrl-k ctrl-c': 'change-case:camel'
   'ctrl-k ctrl-s': 'change-case:snake'
+  'ctrl-k ctrl-u': 'change-case:constant'
+  'ctrl-k ctrl-l': 'change-case:lower'
